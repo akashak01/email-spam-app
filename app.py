@@ -5,7 +5,7 @@ model=pickle.load(open('spam1.pkl','rb'))
 cv=pickle.load(open('vectorizer.pkl','rb'))
 
 st.title("Email Spam Classification Application")
-st.write("This is a machine LEarning project used to Classify the email as spam and not spam")
+st.write("This is a Machine Larning project used to Classify the email as spam and not spam")
 
 user_input=st.text_area("Enter email to classify", height=150)
 
